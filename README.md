@@ -15,11 +15,9 @@ A simple JAX-RS application using a Payara server for student managing in a MySQ
    docker run --name mysql -e MYSQL_ROOT_PASSWORD=my_secret_password -e
    'MYSQL_ROOT_HOST=%' -e MYSQL_DATABASE=test -e MYSQL_USER=user -e
    MYSQL_PASSWORD=password -p 3306:3306 mysql:latest
-7. After following these steps you should be able to run the application.
+7. After following these steps you should be able to run the application using insomnia and the following commands.
 
 
-ENDPOINTS
--
 Create a student
 - 
 **POST** http://localhost:8080/student-management-system/api/v1/students
